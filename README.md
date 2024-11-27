@@ -42,3 +42,28 @@ This Flutter application integrates multiple public APIs and displays data dynam
    ```
    flutter run
    ```
+## Screenshots
+
+![1](https://github.com/user-attachments/assets/79d0eee2-5a89-418c-8656-689a8e3b7ea4)
+
+![2](https://github.com/user-attachments/assets/44beacf9-99c3-41eb-8628-cf1901328490)
+
+![3](https://github.com/user-attachments/assets/82ccbe8d-d14a-4a99-9c6e-b61e582f1631)
+
+![4](https://github.com/user-attachments/assets/f30ed706-bd83-4f74-9c1e-8a08ac76d7f2)
+
+![5](https://github.com/user-attachments/assets/b9eed499-8fb8-4a01-ba54-8ff6a1af3394)
+
+![6](https://github.com/user-attachments/assets/f2bc3476-0b74-4ac0-8c91-a295e31e5338)
+
+![7](https://github.com/user-attachments/assets/e3b55099-1bca-4385-860d-a07e0bfb4443)
+
+![8](https://github.com/user-attachments/assets/10a2f59b-429a-401b-af12-38f3da6925dd)
+
+![9](https://github.com/user-attachments/assets/1baaabb4-bcb2-40a9-8ddd-fb8eea26709b)
+
+![10](https://github.com/user-attachments/assets/fd18be9f-a9df-4b30-9a27-87ce74640b1b)
+
+![11](https://github.com/user-attachments/assets/962a6d0f-31e8-42cc-8b06-3d08564b2b91)
+
+![12](https://github.com/user-attachments/assets/12324194-604e-4b8e-925e-dacbf46188ed)
