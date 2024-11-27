@@ -41,11 +41,22 @@ class JsonPlaceHolderScreenState extends State<JsonPlaceHolderScreen> {
     }
   }
 
+  Widget getSelectedScreenTitle() {
+    switch (selectedScreen) {
+      case 'Posts':
+        return const Text('Posts');
+      case 'Todos':
+        return const Text('Todos');
+      default:
+        return const Text('Users');
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('JSONPlaceholder Data'),
+        title: getSelectedScreenTitle(),
         actions: [
           PopupMenuButton<String>(
             onSelected: (String result) {
