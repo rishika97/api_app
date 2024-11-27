@@ -1,16 +1,44 @@
-# api_app
+# Api_App
 
 API-Powered App
 
-## Getting Started
+# Flutter App with Multiple APIs
 
-This project is a starting point for a Flutter application.
+This Flutter application integrates multiple public APIs and displays data dynamically. The following APIs are used in the app:
 
-A few resources to get you started if this is your first Flutter project:
+1. **JSONPlaceholder API** - Fetch users, posts, and todos.
+2. **OpenWeather API** - Fetch weather data for cities.
+3. **TMDB API** - Display movies and TV shows.
+4. **Dog CEO API** - Fetch random dog images and breeds.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Fetch data from various APIs and display them in a responsive UI.
+- Use a popup menu for navigation between different screens (Users, Posts, Todos).
+- Display error messages or loading indicators when data is being fetched.
+
+## Follow these steps to set up the project locally:
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/rishika97/api_app.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```
+   cd api_app
+   ```
+
+3. Install dependencies:
+
+   ```
+   flutter pub get
+   ```
+
+4. Run the app:
+
+   ```
+   flutter run
+   ```
