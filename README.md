@@ -44,7 +44,9 @@ This Flutter application integrates multiple public APIs and displays data dynam
    ```
 ## Screenshots
 
-![1](https://github.com/user-attachments/assets/79d0eee2-5a89-418c-8656-689a8e3b7ea4)
+<img src="https://github.com/user-attachments/assets/79d0eee2-5a89-418c-8656-689a8e3b7ea4" width="250" height="300" />
+
+![1](https://github.com/user-attachments/assets/79d0eee2-5a89-418c-8656-689a8e3b7ea4 | width=100)
 
 ![2](https://github.com/user-attachments/assets/44beacf9-99c3-41eb-8628-cf1901328490)
 
