@@ -57,8 +57,9 @@ class _WeatherScreenState extends State<WeatherScreen> {
       await _saveSearch(city);
     } catch (error) {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Error: $error')),
+        const SnackBar(content: Text('An issue has been detected. Please retry.')),
       );
+      debugPrint('Error: $error');
     } finally {
       setState(() {
         _isLoading = false;

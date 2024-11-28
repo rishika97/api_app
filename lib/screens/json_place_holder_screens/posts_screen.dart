@@ -14,11 +14,15 @@ class PostScreen extends StatelessWidget {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return const Center(child: CircularProgressIndicator());
         } else if (snapshot.hasError) {
-          return Center(
-            child: Text(
-              'Error: ${snapshot.error}',
-              style: const TextStyle(fontSize: 16, color: Colors.red),
-              textAlign: TextAlign.center,
+          debugPrint('Error: ${snapshot.error}');
+          return const Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(Icons.error, color: Colors.red, size: 50),
+                SizedBox(height: 10),
+                Text('An issue has been detected. Please retry.', textAlign: TextAlign.center),
+              ],
             ),
           );
         } else if (!snapshot.hasData || snapshot.data!.isEmpty) {

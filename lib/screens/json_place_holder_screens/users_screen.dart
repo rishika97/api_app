@@ -14,13 +14,14 @@ class UserScreen extends StatelessWidget {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return const Center(child: CircularProgressIndicator());
           } else if (snapshot.hasError) {
-            return Center(
+            debugPrint('Error: ${snapshot.error}');
+            return const Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  const Icon(Icons.error, color: Colors.red, size: 50),
-                  const SizedBox(height: 10),
-                  Text('Error: ${snapshot.error}', textAlign: TextAlign.center),
+                  Icon(Icons.error, color: Colors.red, size: 50),
+                  SizedBox(height: 10),
+                  Text('An issue has been detected. Please retry.', textAlign: TextAlign.center),
                 ],
               ),
             );

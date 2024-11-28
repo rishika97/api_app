@@ -30,8 +30,9 @@ class _DogScreenState extends State<DogScreen> {
       setState(() => _breeds = breeds);
     } catch (error) {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Error: $error')),
+        const SnackBar(content: Text('An issue has been detected. Please retry.')),
       );
+      debugPrint('Error: $error');
     } finally {
       setState(() => _isLoading = false);
     }
@@ -47,8 +48,9 @@ class _DogScreenState extends State<DogScreen> {
       setState(() => _images = images);
     } catch (error) {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Error: $error')),
+        const SnackBar(content: Text('An issue has been detected. Please retry.')),
       );
+      debugPrint('Error: $error');
     } finally {
       setState(() => _isLoading = false);
     }
